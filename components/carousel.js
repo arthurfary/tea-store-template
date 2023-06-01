@@ -13,10 +13,11 @@ import "./carousel_styles.css";
 // import required modules
 import { Navigation } from "swiper";
 
-export default function App() {
+export default function Carousel() {
   return (
     <>
-      <Swiper navigation={true} modules={[Navigation]} className="h-screen mt-20">
+      
+      <Swiper navigation={true} modules={[Navigation]} className="flex h-[80vh]">
         <SwiperSlide><img src="/images/tea.png" alt=""/></SwiperSlide>
         <SwiperSlide>Slide 2</SwiperSlide>
         <SwiperSlide>Slide 3</SwiperSlide>

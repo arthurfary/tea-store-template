@@ -1,15 +1,17 @@
 
 import Navbar from "@/components/navbar";
-import MyCarousel from "@/components/carousel";
+import Carousel from "@/components/carousel";
+import Boxes from "@/components/boxes";
 
 export default function Home() {
   return (
     <>
-    
+      
       <Navbar/>
-      <MyCarousel/>
+      <Carousel/>
+      <Boxes/>
 
-      <h1>adkkasld</h1>
     </>
   );
 }
+
